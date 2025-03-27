@@ -75,6 +75,7 @@ cy_rslt_t mtb_bmm350_init_i2c(mtb_bmm350_t* dev, cyhal_i2c_t* i2c_instance,
     dev->sensor.read = _bmm350_i2c_read;
     dev->sensor.write = _bmm350_i2c_write;
     dev->sensor.delay_us = _bmm350_delay_us;
+    dev->sensor.mraw_override = NULL;
 
     rslt = bmm350_init(&(dev->sensor));
     if (BMM350_OK != rslt)

@@ -12,6 +12,12 @@ Refer to the [README.md](./README.md) and the [API Reference Guide](./api_refere
 
 ## What Changed?
 
+#### v0.5.2
+- The `mraw_override` member in the `bmm350_dev` structure has been set to NULL by default.
+
+#### v0.5.1
+- Added API reference manual.
+
 #### v0.5.0
 - Initial release
 
@@ -24,8 +30,8 @@ This version of the sensor-orientation-bmm350 was validated for the compatibilit
 | ModusToolbox Software Environment                       | 3.1.0   |
 | mtb-hal-cat1                                            | 2.6.0   |
 | GCC Compiler                                            | 11.3.1  |
-| IAR Compiler                                            | 9.30.1  |
-| ARM Compiler 6                                          | 6.16    |
+| IAR Compiler                                            | 9.50.2  |
+| ARM Compiler 6                                          | 6.22    |
 
 ## More information
 
