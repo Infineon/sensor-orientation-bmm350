@@ -1,2 +1,4 @@
 docs
+output
+test
 $(SEARCH_BMM350_SensorAPI)/examples
