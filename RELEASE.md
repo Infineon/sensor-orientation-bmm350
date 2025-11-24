@@ -14,6 +14,10 @@ See the [README.md](./README.md) and the [API reference guide](./api_reference.m
 
 ## What changed?
 
+#### v1.0.1
+
+- Updated to fix the issues caused by carriage return characters in bmm350_fix.bash
+
 #### v1.0.0
 
 - Initial release for PSOC&trade; Edge Kit
